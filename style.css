@@ -1,0 +1,236 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "DM Serif Display", serif;
+}
+body{
+    background-color: #EDF3F8;
+}
+header{
+    background-color: #EDF3F8;
+}
+.head__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #EDF3F8;
+}
+ul>li{
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px ;
+    padding-left: 100px;
+    padding-right: 200px;
+    align-items: center;
+}
+.card__button>button{
+    padding: 15px 25px;
+    background-color: #BA4270;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+.card__image img{
+    width: 200px;
+    height: 300px;
+}
+
+.card__description{
+    color: #36536B;
+    width: 250px;
+}
+
+.secondcard{
+    background-color:#1B262F;
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding: 100px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondcard__description{
+    width: 300px;
+    height: 200px;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+.secondcard__description h1{
+padding: 10px 30px;
+}
+.secondcard__description p{
+    font-family: Public sans;
+    font-weight: 100;
+}
+.secondcard__img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 50px;
+    width: 500px;
+}
+.secondcard__img:nth-child(5){
+  gap: 100px;
+}
+.secondcard__btn{
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+}
+.thirdcard{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.thirdcard__description h1{
+    align-items: center;
+    color: #36536B;
+    
+}
+.thirdcard__description p{
+    font-family:Public Sans ;
+}
+.smallcard{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    align-items: center;
+}
+.smallcard__description{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smallcard__description h1{
+padding-bottom: 20px;
+}
+.fourthcard{
+    display: flex;
+    gap: 200px;
+    padding: 30px 30px;
+    margin-top: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+.footer a{
+    color: white;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+@media(max-width:768px){
+   .header__container{
+    width: 100%;
+    height: 200px;
+   }
+    .card{
+        width: 100%;
+        height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    padding: 20px ; 
+    padding-left: 100px;
+    padding-right: 200px;
+    background-color: #EDF3F8;
+    }
+   
+    .secondcard{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color:#1B262F;
+        width: 100%;
+        height: 500px;
+        color: white;
+        padding: 100px 30px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .thirdcard{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .thirdcard__description{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        
+    }
+    .fourthcard{
+        position: relative;
+        gap: 20px;
+        top: 80px;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .website__footer{
+        margin-bottom: -10px;
+        position: relative;
+        top: 670px;
+    }
+
+    .secondcard__img{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 30px;
+        flex-wrap: wrap;
+        width: 500px;
+    }
+
+
+
+}
+@media(max-width:430px){
+    
+}
